@@ -1,0 +1,11 @@
+*.log
+__pycache__/
+*.pyc
+
+idea/
+.vscode/
+
+
+README.md
+time_statistics.txt
+```
