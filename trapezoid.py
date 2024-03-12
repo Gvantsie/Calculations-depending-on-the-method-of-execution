@@ -136,29 +136,30 @@ def multiprocess(arr):
     print('Pool Execution Finished in: ', round(finish2 - start2, 2), 'second(s)')
 
 
-def hybrid(arr):
+def hybrid(arr, num_of_processes, num_of_threads):
     start = time.perf_counter()
-    with multiprocessing.Pool(processes=num_of_processes):
-        for _ in range(num_of_processes):
-            threads_in_process = []
+
+    chunk_size = len(arr) // num_of_processes
+    chunks = [arr[i:i + chunk_size] for i in range(0, len(arr), chunk_size)]
+
+    with concurrent.futures.ProcessPoolExecutor(max_workers=num_of_processes) as executor:
+        futures = []
+        for chunk in chunks:
             for _ in range(num_of_threads):
-                threads_in_process.append(threading.Thread(target=trapezoid_area, args=(arr,)))
-                threads_in_process.append(threading.Thread(target=rectangle_area, args=(arr,)))
+                futures.append(executor.submit(trapezoid_area, chunk))
+                futures.append(executor.submit(rectangle_area, chunk))
 
-            for thread in threads_in_process:
-                thread.start()
-
-            for thread in threads_in_process:
-                thread.join()
+        # wait for all tasks to complete
+        for future in concurrent.futures.as_completed(futures):
+            pass
 
     finish = time.perf_counter()
     print('Hybrid Execution Finished in:', round(finish - start, 2), 'second(s)')
 
     return num_of_threads, num_of_processes
 
-
 if __name__ == "__main__":
-    r = 10000
+    r = 1000000
     num_of_processes = 5
     num_of_threads = 20
 
@@ -179,4 +180,4 @@ if __name__ == "__main__":
     multiprocess(trapezoids)
 
     # call hybrid function with trapezoids
-    hybrid(trapezoids)
+    hybrid(trapezoids, num_of_processes, num_of_threads)
