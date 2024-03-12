@@ -139,7 +139,7 @@ def multiprocess(arr):
 def hybrid(arr):
     start = time.perf_counter()
     with multiprocessing.Pool(processes=num_of_processes):
-        for _ in range(5):
+        for _ in range(num_of_processes):
             threads_in_process = []
             for _ in range(num_of_threads):
                 threads_in_process.append(threading.Thread(target=trapezoid_area, args=(arr,)))
