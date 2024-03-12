@@ -3,104 +3,118 @@
 Processes = 5 | Threads = 20:
 
     When number of shapes is 100000
-    General Execution Finished in:  0.48 second(s)
-    Threads Execution Finished in:  0.31 second(s)
-    Pool Execution Finished in:  0.62 second(s)
-    Hybrid Execution Finished in: 25.47 second(s)
+    General Execution Finished in:  0.3 second(s)
+    Threads Execution Finished in:  0.19 second(s)
+    Pool Execution Finished in:  0.42 second(s)
+    Hybrid Execution Finished in: 1.44 second(s)
 
     When number of shapes is 200000
-    General Execution Finished in:  0.99 second(s)
-    Threads Execution Finished in:  0.62 second(s)
-    Pool Execution Finished in:  1.01 second(s)
-    Hybrid Execution Finished in: 49.39 second(s)
+    General Execution Finished in:  0.57 second(s)
+    Threads Execution Finished in:  0.36 second(s)
+    Pool Execution Finished in:  0.59 second(s)
+    Hybrid Execution Finished in: 2.51 second(s)
 
     When number of shapes is 500000
-    General Execution Finished in:  2.47 second(s)
-    Threads Execution Finished in:  1.56 second(s)
-    Pool Execution Finished in:  2.09 second(s)
-    Hybrid Execution Finished in: 122.25 second(s)
+    General Execution Finished in:  1.41 second(s)
+    Threads Execution Finished in:  0.91 second(s)
+    Pool Execution Finished in:  1.34 second(s)
+    Hybrid Execution Finished in: 6.14 second(s)
 
     When number of shapes is 1000000
-    General Execution Finished in:  4.73 second(s)
-    Threads Execution Finished in:  2.44 second(s)
-    Pool Execution Finished in:  3.57 second(s)
-    Hybrid Execution Finished in: 234.87 second(s)
+    General Execution Finished in:  2.85 second(s)
+    Threads Execution Finished in:  1.83 second(s)
+    Pool Execution Finished in:  2.83 second(s)
+    Hybrid Execution Finished in: 12.94 second(s)
 
 Processes = 10 | Threads = 20:
 
     When number of shapes is 100000
-    General Execution Finished in:  0.49 second(s)
-    Threads Execution Finished in:  0.32 second(s)
-    Pool Execution Finished in:  0.7 second(s)
-    Hybrid Execution Finished in: 25.15 second(s)
+    General Execution Finished in:  0.29 second(s)
+    Threads Execution Finished in:  0.18 second(s)
+    Pool Execution Finished in:  0.37 second(s)
+    Hybrid Execution Finished in: 1.1 second(s)
 
     When number of shapes is 200000
-    General Execution Finished in:  0.99 second(s)
-    Threads Execution Finished in:  0.63 second(s)
-    Pool Execution Finished in:  0.98 second(s)
-    Hybrid Execution Finished in: 47.47 second(s)
+    General Execution Finished in:  0.57 second(s)
+    Threads Execution Finished in:  0.36 second(s)
+    Pool Execution Finished in:  0.59 second(s)
+    Hybrid Execution Finished in: 1.95 second(s)
 
     When number of shapes is 500000
-    General Execution Finished in:  2.26 second(s)
-    Threads Execution Finished in:  1.57 second(s)
-    Pool Execution Finished in:  2.14 second(s)
-    Hybrid Execution Finished in: 117.18 second(s)
+    General Execution Finished in:  1.42 second(s)
+    Threads Execution Finished in:  0.9 second(s)
+    Pool Execution Finished in:  1.33 second(s)
+    Hybrid Execution Finished in: 4.76 second(s)
 
     When number of shapes is 1000000
-    General Execution Finished in:  4.63 second(s)
-    Threads Execution Finished in:  2.33 second(s)
-    Pool Execution Finished in:  3.31 second(s)
-    Hybrid Execution Finished in: 234.96 second(s)
+    General Execution Finished in:  2.85 second(s)
+    Threads Execution Finished in:  1.83 second(s)
+    Pool Execution Finished in:  2.75 second(s)
+    Hybrid Execution Finished in: 9.86 second(s)
 
 Processes = 5 | Threads = 100:
 
     When number of shapes is 100000
-    General Execution Finished in:  0.51 second(s)
-    Threads Execution Finished in:  0.43 second(s)
-    Pool Execution Finished in:  0.68 second(s)
-    Hybrid Execution Finished in: 118.43 second(s)
+    General Execution Finished in:  0.29 second(s)
+    Threads Execution Finished in:  0.18 second(s)
+    Pool Execution Finished in:  0.37 second(s)
+    Hybrid Execution Finished in: 5.69 second(s)
 
     When number of shapes is 200000
-    General Execution Finished in:  0.99 second(s)
-    Threads Execution Finished in:  0.63 second(s)
-    Pool Execution Finished in:  1.01 second(s)
-    Hybrid Execution Finished in: 241.72 second(s)
+    General Execution Finished in:  0.56 second(s)
+    Threads Execution Finished in:  0.36 second(s)
+    Pool Execution Finished in:  0.58 second(s)
+    Hybrid Execution Finished in: 11.38 second(s)
 
     When number of shapes is 500000
-    General Execution Finished in:  2.45 second(s)
-    Threads Execution Finished in:  1.57 second(s)
-    Pool Execution Finished in:  2.28 second(s)
-    Hybrid Execution Finished in: 587.35 second(s)
+    General Execution Finished in:  1.42 second(s)
+    Threads Execution Finished in:  0.91 second(s)
+    Pool Execution Finished in:  1.36 second(s)
+    Hybrid Execution Finished in: 29.98 second(s)
 
     When number of shapes is 1000000
-    General Execution Finished in:  4.48 second(s)
-    Threads Execution Finished in:  2.32 second(s)
-    Pool Execution Finished in:  3.38 second(s)
-    Hybrid Execution Finished in: 1201.72 second(s)
+    General Execution Finished in:  2.85 second(s)
+    Threads Execution Finished in:  1.83 second(s)
+    Pool Execution Finished in:  2.72 second(s)
+    Hybrid Execution Finished in: 64.31 second(s)
+
 
 
 ----------------------------------------------TO SUM UP OUR RESULTS:---------------------------------------------------
+To determine the most optimal decision, we need to consider the trade-offs between execution time and
+resources utilized. Here are some observations:
 
-From the provided data, it seems that the optimal decision varies based on the number of processes and threads.
-For the configuration with 5 processes and 20 threads:
+-General Execution: This seems to be a baseline execution without any parallelization. It's consistent across different
+configurations but tends to take longer as the number of shapes increases.
 
-For a small number of shapes (100,000 to 200,000), the "Threads" approach is the most optimal.
-For larger numbers of shapes (500,000 to 1,000,000), the "Pool" approach seems to be the most optimal.
+-Threads Execution: This method shows improvement over the general execution, especially as the number
+of shapes increases. However, the improvement diminishes at higher numbers of shapes.
 
-For the configuration with 10 processes and 20 threads:
-Similar to the 5 processes case, for a small number of shapes (100,000 to 200,000), the "Threads" approach is the most
-optimal.
+-Pool Execution: Similar to threads, this method improves execution time compared to the general execution.
+It shows consistent improvement across different configurations.
 
-For larger numbers of shapes (500,000 to 1,000,000), the "Pool" approach is also the most optimal.
+-Hybrid Execution: This method involves a combination of processes and threads. While it provides significant
+improvement over the general execution, it tends to have the longest execution times among the parallelization methods,
+especially as the number of shapes increases.
 
-For the configuration with 5 processes and 100 threads:
-For a small number of shapes (100,000 to 200,000), the "Threads" approach is still the most optimal.
+Based on these observations, if we prioritize minimizing execution time, the optimal decision seems to be using a
+high number of threads. This is particularly evident in the case of 5 processes and 100 threads. However, if there
+are resource constraints or diminishing returns in performance improvement, a combination of processes and threads
+(hybrid execution) might be a better choice, balancing execution time with resource utilization.
 
-However, for larger numbers of shapes (500,000 to 1,000,000), none of the approaches seem to be efficient,
-with the "Hybrid" approach being the least optimal due to significantly longer execution times.
-Overall, the decision on the most optimal approach depends on the specific scenario and the number of processes
-and threads available. For smaller datasets, the "Threads" approach generally performs better, while for larger
-datasets, the "Pool" approach tends to be more efficient. However, it's essential to consider the trade-offs between
-execution time and resource utilization.
+In summary, the most optimal decision depends on the specific constraints and priorities of the situation, balancing
+between execution time and resource utilization.
+
+P.S. Considering these details:
+
+*If minimizing execution time is the primary concern, utilizing a higher number of threads seems to be the most
+optimal decision. This is particularly evident in configurations with 5 processes and 100 threads.
+
+*If resource utilization and scalability are also important factors, then a combination of processes and threads
+(hybrid execution) might be a better choice, balancing execution time with resource consumption.
+
+**The choice also depends on the specific workload, hardware constraints, and priorities of the system/application
+being developed. For example, if the system has limited memory or if there are other tasks competing for resources,
+a more balanced approach might be necessary.
 
 --> Gvantsa
